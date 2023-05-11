@@ -1,0 +1,73 @@
+.BOX {
+    display: flex;
+    width: 390px;
+    height: 370px;
+    border: 2px solid black;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.top {
+    display: flex;
+    background-color: #ffffdd;
+    width: 390px;
+    height: 260px;
+}
+
+.bottom {
+    background-color: #b386b4;
+    backgroud: #ddd000;
+    height: 110px;
+    display: flex;
+    width: 390px;
+    border-top: 2px solid black;
+    flex-wrap: wrap;
+}
+
+.body {
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 20px;
+    width: 370px;
+    border: 2px solid black;
+}
+
+.body1 {
+    border: 2px solid black;
+    width: 370px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    margin: 2px solid black;
+}
+
+.title {
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+.information {
+    margin-left: 10px;
+    font-size: 10px;
+    /* margin-top: 3px; */
+}
+
+.price {
+    font-size: 20px;
+    color: red;
+    margin-left: 10px;
+}
+
+.price2 {
+    margin-top: 10px;
+    font-size: 10px;
+    margin-left: 10px;
+     color:gray;
+}
+
+.jian {
+    font-size: 10px;
+    margin-left: 117px;
+    margin-top: 10px;
+}

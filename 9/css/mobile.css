@@ -1,0 +1,399 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.main {
+  background-color: #f1efed;
+}
+
+.font-white {
+  color: #fff;
+}
+
+.h-loc {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2em;
+  line-height: 2;
+}
+
+.h-loc .arrow-down {
+  margin: 0.8em 0 0 0.3em;
+  width: 0;
+  height: 0;
+  border: 0.3em solid transparent;
+  border-top: 0.5em solid rgba(255, 255, 255, 0.5);
+}
+
+.h-loc .arrow-down:after {
+  content: "";
+  border: 0.3em solid transparent;
+  border-top: 0.5em solid #00c2af;
+  position: relative;
+  left: -0.3em;
+  top: -0.5em;
+}
+
+.h-search {
+  background-color: #00a595;
+  height: 5em;
+  border-radius: 3px;
+  color: #00dacd;
+  font-size: 0.5em;
+  display: flex;
+  align-items: baseline;
+  padding: 0px;
+  text-indent: 2em;
+  flex-grow: 1;
+}
+
+.h-search i {
+  font-size: 2em;
+  margin-right: 1em;
+}
+
+.h-search input {
+  height: 100%;
+  flex-grow: 1;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+::placeholder {
+  color: #00dacd;
+  font-size: 2.2em;
+}
+
+.h-user {
+  text-align: center;
+  padding: 0.4em 0;
+}
+
+.h-user i {
+  font-size: 1.5em;
+}
+
+.classification {
+  padding: 1em;
+  text-align: center;
+  background-color: #fff;
+  border-bottom: 1px solid #e0d9cf;
+}
+
+.classification li:nth-child(4) {
+  margin-bottom: 1em;
+}
+
+.classification .icon {
+  width: 3em;
+  height: 3em;
+  border-radius: 1.5em;
+  margin: auto;
+}
+
+.classification .orange {
+  background-color: #ff8905;
+}
+
+.classification .pink-orange {
+  background-color: #ff6640;
+}
+
+.classification .purple {
+  background-color: #7089f6;
+}
+
+.classification .blue {
+  background-color: #00cdf0;
+}
+
+.classification .yellow {
+  background-color: #ffbb53;
+}
+
+.top-ad {
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1em;
+  border-top: solid 1px #e0d9cf;
+  border-bottom: solid 1px #e0d9cf;
+}
+
+.top-ad p {
+  font-size: 0.8em;
+}
+
+.top-ad em {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.top-ad .img {
+  background-color: #666666;
+  box-sizing: border-box;
+  border: solid 1px #c1c1c1;
+}
+
+.top-ad .b-box {
+  margin: 0.5em 0;
+  padding: 0.2em 0 0.3em 1.2em;
+  box-sizing: border-box;
+  border-right: solid 1px #e0d9cf;
+}
+
+.top-ad .b-box em {
+  color: #00a500;
+}
+
+.top-ad .b-box .img {
+  width: 7em;
+  height: 7em;
+}
+
+.top-ad .c-box {
+  padding: 0 0.5em 0 0;
+}
+
+.top-ad .c-box .w-box {
+  box-sizing: border-box;
+  padding: 0.5em 2em 0.5em 1em;
+  border-bottom: solid 1px #e0d9cf;
+}
+
+.top-ad .c-box .w-box em {
+  color: #ff3d00;
+  float: left;
+}
+
+.top-ad .c-box .w-box p {
+  float: left;
+  clear: left;
+}
+
+.top-ad .c-box .w-box .img {
+  width: 5em;
+  height: 5em;
+  float: right;
+  margin-top: -1.7em;
+}
+
+.top-ad .c-box .l-box {
+  border-right: solid 1px #e0d9cf;
+  padding: 0.3em 1em;
+}
+
+.top-ad .c-box .l-box .img {
+  width: 3em;
+  height: 3em;
+  margin: 0.3em 1.5em;
+}
+
+.pink {
+  color: pink;
+  font-size: 24px;
+}
+
+.orange {
+  color: orange;
+  font-size: 24px;
+}
+
+.top-ad .c-box .r-box {
+  padding: 0.5em 1.5em;
+}
+
+.top-ad .c-box .r-box p {
+  margin: 0 0 0.2em 0;
+}
+
+.top-ad .c-box .r-box .time span {
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  font-size: 0.8em;
+  background-color: #4b4b4b;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 3px;
+}
+
+.bottom-ad {
+  margin-top: 1em;
+  background-color: #fff;
+  border-top: solid 2px gainsboro;
+  border-bottom: solid 2px gainsboro;
+}
+
+.bottom-ad > div {
+  padding: 0.8em 0.5em 0.5em 1.5em;
+  color: #b6b6b6;
+}
+
+.bottom-ad .l-ad {
+  border-right: solid 2px gainsboro;
+}
+
+.bottom-ad em {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.yellow {
+  color: #ff9c00;
+}
+
+.bottom-ad .img {
+  width: 5em;
+  height: 5em;
+  background-color: grey;
+  box-sizing: border-box;
+  border: solid 1px #c1c1c1;
+  float: right;
+  margin-top: -4em;
+}
+
+.list {
+  margin-top: 1em;
+  background-color: #fff;
+}
+
+.list .title {
+  font-size: 25px;
+  /* padding: 0.2em 0.3em; */
+}
+
+.list {
+  padding-left: 0.5em;
+}
+
+.list li {
+  border-top: solid 2px gainsboro;
+  padding: 0.5em 0.5em 0.5em 0;
+  display: flex;
+}
+
+.list li .img {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+}
+
+.list .ap-free:before {
+  /* content: ""; */
+  display: block;
+  position: absolute;
+  left: -23.5px;
+  top: 1px;
+  width: 70px;
+  border: solid 18px transparent;
+  border-bottom: solid 18px #00c3af;
+  transform: rotate(-45deg);
+}
+
+
+.list li .r-col {
+  padding: 0.1em 0.5em;
+  width: 100%;
+}
+
+.list li .r-col .li-title {
+  font-size: 1.1em;
+}
+
+.list li .r-col .info {
+  margin-top: 0.7em;
+  display: flex;
+  flex-direction: row;
+}
+
+.list li .r-col .info .price {
+  color: #00c2af;
+}
+
+.list li .r-col .info .tag {
+  border: solid 1px #ff9a00;
+  padding: 0 0.2em;
+  color: #ff9a00;
+  border-radius: 3px;
+  margin-left: 1em;
+  height: 1.8em;
+  line-height: 1.7;
+}
+
+.list li .r-col .info .sold {
+  flex-grow: 1;
+  text-align: right;
+}
+
+.list li .r-col .info .market-price {
+  margin-left: 0.5em;
+  height: 1.8em;
+  line-height: 2.3;
+}
+
+.b-font {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.more {
+  background-color: #8fc6ea;
+  border-top: solid 1px #e0d9cf;
+  /* margin-top: 0em; */
+  height: 3em;
+  line-height: 3;
+}
+
+.more * {
+  color: #00b2ce;
+}
+
+.more a {
+  float: right;
+  margin-right: 0.3em;
+}
+
+
+em.green {
+    font-size: 25px;
+    color: green;
+}
+
+.img {
+    background-color: gray;
+    height: 200px;
+    /* float: right; */
+    width: 200px;
+    /* color: grey; */
+}
+
+.img1 {
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+}
+
+em.red {
+    /* padding: 5px; */
+    font-size: 24px;
+    color: red;
+}
+
+.img2 {
+    margin: 1px 0px 0px 686px;
+    /* padding: 14px; */
+    height: 100px;
+    height: 100px;
+    background-color: gray;
+    width: 100px;
+    /* float: right; */
+}
+
+
+.row-bottom {}

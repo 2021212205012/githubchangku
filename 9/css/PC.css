@@ -1,0 +1,344 @@
+* {
+  padding: 0px;
+  margin: 0;
+  border: none;
+}
+
+header {
+  background-color: #008def;
+  padding: 0.1em 10em 1em;
+}
+
+header .func {
+  width: auto;
+  margin: 0.5em 0;
+  float: right;
+}
+
+header .func button {
+  background: none;
+  margin: 0 0.5em;
+}
+
+header .search {
+  background-color: #fff;
+}
+
+header .module {
+  border: solid 1px transparent;
+  border-radius: 4px;
+  height: 2em;
+  line-height: 2em;
+  width: auto;
+  left: 4%;
+  margin-right: 2em;
+  text-align: center;
+}
+
+header .module:nth-child(1),
+header .module:hover {
+  background-color: #0069b4;
+}
+
+header .search {
+  /* padding: 0; */
+  /* background-color: white; */
+  /* border-radius: 0 2px 2px 0; */
+  width: 300px;
+  height: 58px;
+  float: right;
+}
+
+header .search div {
+  /* padding: 0 1.3em 0 0.5em; */
+}
+.i img{
+  height: 10px;
+}
+header .search div:after {
+  /* content: ""; */
+  border: solid 0.3em transparent;
+  border-top: solid 0.3em #b1b1b1;
+  position: relative;
+  top: 0.8em;
+  left: 0.3em;
+}
+
+header .search i {
+  flex: 1;
+  padding: 0 0.8em;
+  height: 0px;
+}
+
+header .search input {
+  /* outline: none; */
+  /* flex: 5; */
+}
+
+.main {
+  padding: 1.3em 2em 0 0;
+}
+
+.main .sec .l-col .b-img {
+  height: 18em;
+  background-color: #666666;
+}
+
+.main .sec .r-col {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 2em 2em 3em 2em;
+  height: 18em;
+}
+
+.main .sec .r-col button {
+  background-color: #009eff;
+  width: 10em;
+  height: 2.5em;
+  margin-top: 1.5em;
+}
+
+hr {
+  border: solid 1px gray;
+  margin: 2em 0 2em 0;
+}
+
+.main .sec .r-col .txt {
+  color: #898990;
+  font-size: 1.2em;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.main .sec .r-col .txt em {
+  color: #0083cc;
+  font-style: normal;
+}
+
+.main .sec .r-col .txt div {
+  margin-right: 1em;
+  width: 6em;
+}
+
+.main .content {
+  padding: 1em 0;
+}
+
+.main .content .title {
+  margin: 0.5em 0;
+}
+
+.main .content .box {
+  border: solid 1px gainsboro;
+  min-height: 15em;
+  word-break: break-all;
+}
+
+.main .content .box .img {
+  background-color: #666666;
+  width: 100%;
+  height: 8em;
+  margin-top: 1em;
+}
+
+.main .content .box .img-s {
+  background-color: #666666;
+  width: 30%;
+  height: 8em;
+  margin-top: 1em;
+}
+
+.main .content .box h5 {
+  font-weight: 600;
+}
+
+.main .content .box .txt {
+  margin-left: 2em;
+}
+
+.main .content .box .txt h5 {
+  margin: 1.5em 0;
+}
+
+.main .content .box .txt .data {
+  right: 2em;
+}
+
+.main .content .box .play:before {
+  /* content: ""; */
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: solid 2px #fff;
+  border-radius: 15px;
+  background-color: #323232;
+  position: relative;
+  top: 75px;
+  left: 5px;
+}
+
+.main .content .box .play:after {
+  /* content: ""; */
+  display: block;
+  width: 0;
+  height: 0;
+  border: solid 7px transparent;
+  border-left: solid 8px #fff;
+  position: relative;
+  left: 17px;
+  top: 53px;
+}
+
+.main .content .l-col .tag {
+  background-color: #ff792e;
+  border-radius: 2px;
+  border: solid 1px #ff4d00;
+  padding: 0 2px;
+  color: #fff;
+  font-size: 10px;
+}
+
+.main .content .data {
+  color: #9a9a9a;
+  position: absolute;
+  bottom: 1em;
+}
+
+.main .content .l-col {
+  padding: 0 2em;
+}
+
+.main .content .r-col {
+  padding: 0;
+}
+
+.main .content .r-col .box {
+  min-height: 18em;
+  margin-bottom: 1em;
+}
+
+.main .content .r-col .box .tag:before {
+  /* content: ""; */
+  border: solid 25px transparent;
+  border-bottom: solid 25px #0092f2;
+  width: 9em;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 0;
+  right: -37px;
+}
+
+.main .content .r-col .box .tag:after {
+  /* content: "即将开始"; */
+  display: block;
+  color: #fff;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 25px;
+  right: 4px;
+}
+
+.main .content .r-col .box .title {
+  margin-top: 1em;
+}
+
+.main .content .r-col .box .title .b-font {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.main .content .r-col .box hr {
+  margin: 1em 0 2em;
+}
+
+.main .content .r-col .box .img-s {
+  width: 50%;
+  margin: auto;
+}
+
+.main .content .r-col .box .img-s:after {
+  content: "第128期";
+  display: block;
+  color: #fff;
+  background-color: #191717;
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+
+.f-white {
+  color: #fff;
+}
+
+.f-grey {
+  color: #9c9c9c;
+}
+
+.flex {
+  display: flex;
+}
+
+.align-r {
+  text-align: right;
+}
+
+.align-c {
+  text-align: center;
+}
+
+.align-l {
+  text-align: left;
+}
+
+.lh-2 {
+  line-height: 2;
+}
+
+.fl-r {
+  float: right;
+}
+
+.indent-2 {
+  text-indent: 2em;
+}
+
+.pd-l-0 {
+  padding-left: 0;
+}
+
+.bb-blue {
+  border-bottom: solid 2px #0092f1 !important;
+}
+
+.font-blue {
+  color: #0092f1;
+  font-style: normal;
+}
+
+
+.align-l.lh-2 {
+    /* color: black; */
+}
+
+.align-l.lh-2 {}
+
+.col-md-5 {}
+
+.col-md-5 {
+    float: left;
+}
+
+li.col-md-2 {
+    margin-top: 40px;
+    font-size: 27px;
+    color: white;
+    /* text-align: center; */
+}
+
+li.col-md-3 {
+    color: white;
+    font-size: 27px;
+    margin-top: 40px;
+}
+
+.txt {}
